@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Provider} from 'react-redux'
-
+import store from './store'
 
 import Posts from './components/posts'
 import PostForm from './components/post_form'
+
 
 class App extends Component {
 
